@@ -8,8 +8,9 @@
 	</head>
 	<body>
 		<div class="block"></div>
+		<div data-load="partial.html if (min-width: 800px)"></div>
 
-		<script src="js/loadif.js"></script>
+		<script src="loadif.js"></script>
 		<script>
 
 		loadif('.block', 'partial.html', '(min-width: 800px)');
